@@ -107,7 +107,7 @@ nav a:hover::after { transform: scaleX(1); }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('assets/hero.png');
+  background-image: url('hero.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.35;
