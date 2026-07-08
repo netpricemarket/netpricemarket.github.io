@@ -586,3 +586,34 @@ footer {
 
   .products-grid { grid-template-columns: 1fr; }
 }
+
+/* ========== FOOTER SNS ========== */
+.footer-sns {
+  display: flex;
+  gap: 24px;
+  margin-top: 14px;
+}
+
+.footer-sns a {
+  color: #e0a940;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.2s;
+}
+
+.footer-sns a:hover {
+  opacity: 0.7;
+}
+
+.footer-sns .fa-facebook {
+  color: #1877f2;
+  font-size: 18px;
+}
+
+.footer-sns .fa-amazon {
+  color: #ff9900;
+  font-size: 18px;
+}
